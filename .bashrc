@@ -110,8 +110,3 @@ fi
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
 export PS1='\[\033[01;32m\]\h\[\033[01;34m\] \w\[\033[31m\]$(__git_ps1 "(%s)") \[\033[01;34m\]$\[\033[00m\] '
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-export ORACLE_HOME=/home/marlesson/oracle_teste/instantclient_11_2
-export LD_LIBRARY_PATH=/home/marlesson/oracle_teste/instantclient_11_2
