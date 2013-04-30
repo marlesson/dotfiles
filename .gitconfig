@@ -1,0 +1,46 @@
+[user]
+name = Marlesson
+email = marlessonsa@gmail.com
+
+[color]
+diff = auto
+status = auto
+branch = auto
+interactive = true
+
+[core]
+#	editor = C:\\Program Files\\Sublime Text 2\\sublime_text.exe
+
+; diff and merge
+[diff]
+tool = winMerge
+guitool = winMerge
+
+[difftool]
+prompt = false
+
+[merge]
+tool = beyondcompare
+
+[mergetool]
+keepBackup = false
+prompt = false
+
+[alias]
+st = status
+ci = commit
+br = branch
+df = diff
+lg = log -pgit ps
+hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+co = checkout
+pmaster = push origin master
+pdevelop = push origin develop
+psprint8 = push origin sprint8
+ps = push
+pl = pull
+unstage = reset HEAD
+unmodif = checkout --
+returncommit = reset --hard 
+[push]
+	default = current
